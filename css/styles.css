@@ -87,3 +87,20 @@ nav ul li a:hover {
         display: block;
     }
 }
+/* Effects and Animations */
+button {
+    background-color: #0000ff; /* สีฟ้าของปุ่ม */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e90ff; /* สีฟ้าสว่างเมื่อ hover */
+}
+
+button:focus {
+    outline: none;
+}
