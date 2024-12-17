@@ -137,3 +137,11 @@ section {
     font-size: 20px;
     margin-top: 15px;
 }
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #67b0e4; /* สีฟ้าของ footer */
+    color: white;
+    margin-top: 20px;
+}
