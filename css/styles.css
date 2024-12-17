@@ -28,3 +28,32 @@ body {
     gap: 20px;
     margin-top: 20px;
 }
+/* Navigation Menu */
+nav {
+    width: 100%;
+    background-color: #67b0e4; /* สีฟ้าของเมนู */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #7eff47; /* สีที่เปลี่ยนเมื่อ hover */
+    transition: color 0.3s;
+}
