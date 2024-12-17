@@ -57,3 +57,33 @@ nav ul li a:hover {
     color: #7eff47; /* สีที่เปลี่ยนเมื่อ hover */
     transition: color 0.3s;
 }
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    nav ul li {
+        padding: 15px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu-active {
+        display: block;
+    }
+}
